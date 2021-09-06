@@ -40,10 +40,12 @@ button {
 
 @mixin btn($var) {
   
-    @if $var == btn-nav {
-      padding: 1.04rem 1rem;
-    } @else if $var == btn-main{
-      padding: 1.5rem 4rem;
+    @if $var == ligth {
+      background-color: $white;
+      color: $black;
+    } @else if $var == dark{
+        background-color: $purple;
+        color: $white;
     }
   }
 
