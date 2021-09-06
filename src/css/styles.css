@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sen:wght@400;700&display=swap");
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -42,7 +43,7 @@ button {
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/Inter/Inter-Regular.ttf) format("woff2");
+  src: url("../fonts/Inter/Inter-Regular.ttf") format("woff2");
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 @font-face {
@@ -50,7 +51,7 @@ button {
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(../fonts/Inter/Inter-Medium.ttf) format("woff2");
+  src: url("../fonts/Inter/Inter-Medium.ttf") format("woff2");
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 @font-face {
@@ -58,7 +59,7 @@ button {
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(../fonts/Inter/Inter-SemiBold.ttf) format("woff2");
+  src: url("../fonts/Inter/Inter-SemiBold.ttf") format("woff2");
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 @font-face {
@@ -66,7 +67,7 @@ button {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/Sen/Sen-Regular.ttf) format("woff2");
+  src: url("../fonts/Sen/Sen-Regular.ttf") format("woff2");
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 @font-face {
@@ -74,19 +75,19 @@ button {
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(../fonts/Sen/Sen-Bold.ttf) format("woff2");
+  src: url("../fonts/Sen/Sen-Bold.ttf") format("woff2");
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
 nav {
+  font-family: "Sen", sans-serif;
   height: 8rem;
   align-items: center;
   display: flex;
   justify-content: space-between;
-  font-family: Sen;
 }
 nav .logo {
   font-size: 3.2rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -2,16 +2,18 @@
 @import 'variables';
 
 
-   
     nav {
+        font-family: 'Sen', sans-serif;
         height: 8rem;
         align-items: center;
         display: flex;
         justify-content: space-between;
-        font-family: Sen;
+       
+     
         .logo {
+
            font-size: 3.2rem;
-           font-weight: 600;
+           font-weight: 700;
         }
     }
    
