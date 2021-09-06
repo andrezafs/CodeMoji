@@ -1,2 +1,17 @@
 @import 'reset';
 @import 'variables';
+
+
+   
+    nav {
+        height: 8rem;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        font-family: Sen;
+        .logo {
+           font-size: 3.2rem;
+           font-weight: 600;
+        }
+    }
+   
