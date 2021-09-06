@@ -23,7 +23,24 @@ p {
     font-size: 1.6rem ;
 }
 
+button {
+    border: 0;
+    font-size: 1.6rem;
+    border-radius: 10rem;
+}
+
 .maxWidth {
     max-width: 130rem;
     margin: 0 auto;
 }
+
+@mixin btn($var) {
+  
+    @if $var == btn-nav {
+      padding: 1.04rem 1rem;
+    } @else if $var == btn-main{
+      padding: 1.5rem 4rem;
+    }
+  }
+
+ 

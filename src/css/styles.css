@@ -26,6 +26,12 @@ p {
   font-size: 1.6rem;
 }
 
+button {
+  border: 0;
+  font-size: 1.6rem;
+  border-radius: 10rem;
+}
+
 .maxWidth {
   max-width: 130rem;
   margin: 0 auto;
