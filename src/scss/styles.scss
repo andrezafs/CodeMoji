@@ -19,10 +19,9 @@
 
     main {
         margin-top: 14.9rem;
-        display: flex;
-        text-align: center;
-        align-items: center;
-
+            display: flex;
+            text-align: center;
+            align-items: center;
         h2 {
             text-transform: uppercase;
             font-family: 'Inter', sans-serif;
@@ -32,6 +31,10 @@
             margin-top: 1.7rem;
             font-family: 'Sen', sans-serif;
             width: 90rem;
+        }
+
+        .buttons {
+            margin-top: 3.7rem;
         }
     }
    

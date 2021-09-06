@@ -107,5 +107,8 @@ main h1 {
   font-family: "Sen", sans-serif;
   width: 90rem;
 }
+main .buttons {
+  margin-top: 3.7rem;
+}
 
 /*# sourceMappingURL=styles.css.map */
