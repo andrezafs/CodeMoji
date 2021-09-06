@@ -4,7 +4,7 @@
 
     nav {
         font-family: 'Sen', sans-serif;
-        height: 8rem;
+        height: 9.4rem;
         align-items: center;
         display: flex;
         justify-content: space-between;
@@ -14,6 +14,24 @@
 
            font-size: 3.2rem;
            font-weight: 700;
+        }
+    }
+
+    main {
+        margin-top: 14.9rem;
+        display: flex;
+        text-align: center;
+        align-items: center;
+
+        h2 {
+            text-transform: uppercase;
+            font-family: 'Inter', sans-serif;
+           font-weight: 500;
+        }
+        h1 {
+            margin-top: 1.7rem;
+            font-family: 'Sen', sans-serif;
+            width: 90rem;
         }
     }
    
