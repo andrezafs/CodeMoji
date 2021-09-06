@@ -6,5 +6,6 @@
   "start": "sass --watch src/scss/styles.scss src/css/styles.css",
   "dependencies": {
     "sass": "^1.39.0"
-  }
+  },
+  "author": "Andreza Ferreira <andrezafs.rr@gmail.com>"
 }
