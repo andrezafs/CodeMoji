@@ -114,8 +114,11 @@ main h1 {
   font-family: "Sen", sans-serif;
   line-height: 8.7rem;
 }
-main .maxWidth {
-  position: relative;
+main .mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 main .mainContainer .buttons {
   margin-top: 3.7rem;
@@ -134,6 +137,9 @@ main .mainContainer .buttons #btn-white {
   color: #2f2f2f;
   border: 0.2rem solid #eaeaea;
 }
+main .mainContainer .texts {
+  position: relative;
+}
 
 .emojis {
   position: absolute;
@@ -150,8 +156,8 @@ main .mainContainer .buttons #btn-white {
 
 #emoji1 {
   background: linear-gradient(136.92deg, #2DC7ED 3.14%, rgba(45, 199, 237, 0) 100%);
-  left: -28rem;
-  top: -5rem;
+  left: -16rem;
+  top: 0rem;
 }
 
 #emoji2 {
@@ -182,6 +188,17 @@ main .mainContainer .buttons #btn-white {
 }
 #emoji5 img {
   transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 900px) {
+  .emojis {
+    display: none;
+    width: 50%;
+    height: 50%;
+  }
+  .emojis img {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

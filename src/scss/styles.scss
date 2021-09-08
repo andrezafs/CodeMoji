@@ -37,11 +37,15 @@
             font-family: 'Sen', sans-serif;
             line-height:  8.7rem;
         }
-        .maxWidth {
-            position: relative;
-        }
+        // .maxWidth {
+          
+        // }
        .mainContainer {
-       
+      
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         .buttons {
             margin-top: 3.7rem;
             button {
@@ -56,7 +60,9 @@
                     @include btn(ligth);
             }
         }
-       
+       .texts {
+        position: relative;
+       }
        }
     }
 
@@ -68,14 +74,16 @@
     align-items: center;
     justify-content: center;
     transform: rotate(45deg);
+  
     img {
+        
         transform: rotate(-45deg);
     }
 }
     #emoji1 {
         background : linear-gradient(136.92deg, #2DC7ED 3.14%, rgba(45, 199, 237, 0) 100%);
-        left: -28rem;
-        top: -5rem;
+        left:-16rem;
+        top: 0rem;
     }
 
     #emoji2 {
@@ -106,4 +114,18 @@
     img {
         transform: rotate(-90deg); 
     }
+ }
+
+ @media screen and (max-width:900px){
+
+
+     .emojis {
+         display: none;
+         width: 50%;
+         height: 50%;
+
+         img {
+             width: 100%;
+         }
+     } 
  }
