@@ -1,8 +1,44 @@
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-Regular.ttf") format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-Medium.ttf") format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-SemiBold.ttf") format("woff2");
+}
+@font-face {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Sen/Sen-Regular.ttf") format("woff2");
+}
+@font-face {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/Sen/Sen-Bold.ttf") format("woff2");
+}
 *, *::after, *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  color: #2f2f2f;
 }
 
 a {
