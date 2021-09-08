@@ -17,7 +17,7 @@ Criação de um site semântico e responsivo sobre a criação de memoji´s.
 
 Este é um projeto desenvolvido a partir do desafio da comunidade [@Codelândia](https://discord.com/invite/QevDJqCzaY).
 
-[**Clique aqui para vizualizar o projeto**](https://andrezafs.github.io/desafio-codelandia5/)
+[**Clique aqui para vizualizar o projeto**](https://andrezafs.github.io/CodeMoji/)
 
 ## 🔖 Layout
  Você pode visualizar o layout do projeto através dos links abaixo:
