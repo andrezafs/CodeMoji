@@ -27,6 +27,8 @@ h3 {
 }
 
 p {
+  width: 40rem;
+  font-style: italic;
   font-size: 1.6rem;
 }
 
@@ -102,7 +104,6 @@ nav button {
 }
 
 main {
-  height: 100vh;
   margin-top: 14.9rem;
   display: flex;
   text-align: center;
@@ -213,7 +214,7 @@ footer {
   justify-content: space-evenly;
 }
 .coments-box .coments {
-  margin: 5rem;
+  margin: 6rem 7.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
