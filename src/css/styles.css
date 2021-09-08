@@ -64,6 +64,17 @@ p {
   line-height: 2.6rem;
 }
 
+@keyframes rodaroda {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 button {
   font-family: "Inter", sans-serif;
   border: 0;
@@ -210,7 +221,7 @@ main .mainContainer .texts {
 #emoji1 {
   background: linear-gradient(136.92deg, #2DC7ED 3.14%, rgba(45, 199, 237, 0) 100%);
   left: -22rem;
-  top: 0rem;
+  top: -10rem;
 }
 
 #emoji2 {

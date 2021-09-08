@@ -30,6 +30,12 @@ p {
     line-height: 2.6rem;
 }
 
+@keyframes rodaroda {
+	0% {  transform:rotate(0deg); }
+	50% { transform:rotate(180deg); }
+	100% {  transform:rotate(360deg); }
+}
+
 button {
     font-family: 'Inter', sans-serif;
     border: 0;

@@ -70,6 +70,7 @@ body {
     }
 
 .emojis {
+   
     position: absolute;
     display: flex;
     width: 20rem;
@@ -77,7 +78,7 @@ body {
     align-items: center;
     justify-content: center;
     transform: rotate(45deg);
-  
+ 
     img {
         
         transform: rotate(-45deg);
@@ -86,7 +87,7 @@ body {
     #emoji1 {
         background : $bg-icon1;
         left:-22rem;
-        top: 0rem;
+        top: -10rem;
     }
 
     #emoji2 {
