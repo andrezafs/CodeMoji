@@ -22,6 +22,7 @@
     }
 
     main {
+      
         margin-top: 14.9rem;
             display: flex;
             text-align: center;
@@ -36,8 +37,11 @@
             font-family: 'Sen', sans-serif;
             line-height:  8.7rem;
         }
-
+        .maxWidth {
+            position: relative;
+        }
        .mainContainer {
+       
         .buttons {
             margin-top: 3.7rem;
             button {
@@ -52,6 +56,54 @@
                     @include btn(ligth);
             }
         }
+       
        }
     }
-   
+
+.emojis {
+    position: absolute;
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    img {
+        transform: rotate(-45deg);
+    }
+}
+    #emoji1 {
+        background : linear-gradient(136.92deg, #2DC7ED 3.14%, rgba(45, 199, 237, 0) 100%);
+        left: -28rem;
+        top: -5rem;
+    }
+
+    #emoji2 {
+        top: -10rem;
+        right: -25rem;
+        border-radius: 100%;
+        background: linear-gradient(270deg, #F2C94C 0%, rgba(242, 201, 76, 0) 100%);
+    }
+
+    #emoji3 {
+        top: 36rem;
+      right: -29rem;
+      background: linear-gradient(180deg, #00E861 0%, rgba(0, 232, 97, 0) 100%);
+    }
+ #emoji4 {
+    border-radius: 100%;
+    top: 70rem;
+     right: 18rem;
+    background: linear-gradient(270deg, #7248EC 0%, rgba(114, 72, 236, 0) 100%);
+ }
+
+ #emoji5 {
+    transform: rotate(90deg);
+     border-radius: 3rem;
+    background: linear-gradient(136.92deg, #EF7C89 3.14%, rgba(239, 124, 137, 0) 100%);
+
+    left: -12.4rem;
+    img {
+        transform: rotate(-90deg); 
+    }
+ }
