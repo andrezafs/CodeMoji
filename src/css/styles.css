@@ -28,7 +28,6 @@ h3 {
 }
 
 p {
-  font-family: "Inter", sans-serif;
   padding: 2.7rem 0;
   font-style: italic;
   font-size: 1.6rem;
@@ -179,9 +178,19 @@ main .mainContainer .texts {
 }
 
 #emoji3 {
+  width: 15rem;
+  height: 15rem;
+  transform: rotate(0deg);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   top: 36rem;
   right: -31rem;
   background: linear-gradient(180deg, #00E861 0%, rgba(0, 232, 97, 0) 100%);
+}
+
+#img3 {
+  position: absolute;
+  left: 94rem;
+  top: 37rem;
 }
 
 #emoji4 {
