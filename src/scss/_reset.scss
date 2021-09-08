@@ -43,16 +43,29 @@ button {
     margin: 0 auto;
 }
 
+@mixin hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    background-color: transparent;
+    color: $purple;
+    border: 0.1rem solid $purple;
+  }
 @mixin btn($var) {
   
     @if $var == ligth {
       background-color:transparent;
       color: $black;
       border: .2rem solid $grey;
+     &:hover {
+    @include hover;
+   }
 
     } @else if $var == dark{
         background-color: $purple;
         color: $white;
+        &:hover {
+            @include hover;
+           }
     }
   }
 
