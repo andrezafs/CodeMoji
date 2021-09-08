@@ -24,12 +24,15 @@ h3 {
   font-size: 2rem;
   padding: 0 1.2rem;
   border-left: 0.3rem solid #6610F2;
+  font-family: "Inter", sans-serif;
 }
 
 p {
-  width: 40rem;
+  font-family: "Inter", sans-serif;
+  padding: 2.7rem 0;
   font-style: italic;
   font-size: 1.6rem;
+  line-height: 2.6rem;
 }
 
 button {
@@ -85,6 +88,10 @@ button {
   src: url("../fonts/Sen/Sen-Bold.ttf") format("woff2");
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
+body {
+  background-color: #f9f9f9;
+}
+
 nav {
   font-family: "Sen", sans-serif;
   height: 9.4rem;
@@ -209,8 +216,7 @@ footer {
 }
 
 .coments-box {
-  flex-wrap: wrap;
-  background-color: aqua;
+  background-color: #fcfcfc;
   display: flex;
 }
 .coments-box .coments {

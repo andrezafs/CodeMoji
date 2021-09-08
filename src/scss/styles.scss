@@ -1,7 +1,9 @@
 @import 'reset';
 @import 'variables';
 
-
+body {
+    background-color: $white;
+}
     nav {
         font-family: 'Sen', sans-serif;
         height: 9.4rem;
@@ -22,7 +24,7 @@
     }
 
     main {
-      
+     
         margin-top: 14.9rem;
             display: flex;
             text-align: center;
@@ -134,8 +136,8 @@
      margin-top: 36rem;
  }
  .coments-box {
-     flex-wrap: wrap;
-     background-color: aqua;
+    //  flex-wrap: wrap;
+     background-color: $bg-coments;
      display: flex;
    
 
