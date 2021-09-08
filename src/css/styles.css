@@ -86,9 +86,8 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-nav .logo {
-  font-size: 3.2rem;
-  font-weight: 700;
+nav .logo a {
+  font: 700 3.2rem "Sen";
 }
 nav button {
   font-size: 1.6rem;
