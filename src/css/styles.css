@@ -20,7 +20,10 @@ h2 {
 }
 
 h3 {
+  text-transform: uppercase;
   font-size: 2rem;
+  padding: 0 1.2rem;
+  border-left: 0.3rem solid #6610F2;
 }
 
 p {
@@ -208,6 +211,9 @@ footer {
   background-color: aqua;
   display: flex;
   justify-content: space-evenly;
+}
+.coments-box .coments {
+  margin: 5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
