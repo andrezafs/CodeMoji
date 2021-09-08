@@ -174,7 +174,7 @@ main .mainContainer .buttons {
 }
 main .mainContainer .buttons button {
   font-size: 2rem;
-  margin: 0 2.6rem;
+  margin: 2rem 2.6rem;
 }
 main .mainContainer .buttons #btn-purple {
   padding: 1.5rem 4rem;
@@ -264,16 +264,6 @@ main .mainContainer .texts {
   transform: rotate(-90deg);
 }
 
-@media screen and (max-width: 900px) {
-  .emojis {
-    display: none;
-    width: 50%;
-    height: 50%;
-  }
-  .emojis img {
-    width: 100%;
-  }
-}
 footer {
   margin-top: 42rem;
 }
@@ -291,6 +281,37 @@ footer {
 }
 .coments-box .coments p {
   padding: 2.7rem 0;
+}
+
+@media screen and (max-width: 900px) {
+  .maxWidth {
+    padding: 0 2rem;
+  }
+
+  h1 {
+    line-height: 1rem;
+    font-size: 5.5rem;
+  }
+
+  #img3 {
+    display: none;
+  }
+
+  .emojis {
+    display: none;
+  }
+
+  footer {
+    margin-top: 10rem;
+  }
+
+  .coments-box {
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+  .coments-box .coments {
+    padding: 2rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
