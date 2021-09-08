@@ -205,13 +205,13 @@ main .mainContainer .texts {
   }
 }
 footer {
-  margin-top: 14rem;
+  margin-top: 36rem;
 }
 
 .coments-box {
+  flex-wrap: wrap;
   background-color: aqua;
   display: flex;
-  justify-content: space-evenly;
 }
 .coments-box .coments {
   margin: 6rem 7.5rem;
