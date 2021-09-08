@@ -175,7 +175,7 @@ main .mainContainer .texts {
 
 #emoji4 {
   border-radius: 100%;
-  top: 70rem;
+  top: 60rem;
   right: 18rem;
   background: linear-gradient(270deg, #7248EC 0%, rgba(114, 72, 236, 0) 100%);
 }
@@ -184,7 +184,7 @@ main .mainContainer .texts {
   transform: rotate(90deg);
   border-radius: 3rem;
   background: linear-gradient(136.92deg, #EF7C89 3.14%, rgba(239, 124, 137, 0) 100%);
-  left: -6.4rem;
+  left: -13rem;
 }
 #emoji5 img {
   transform: rotate(-90deg);
