@@ -84,7 +84,7 @@ body {
     }
 }
     #emoji1 {
-        background : linear-gradient(136.92deg, #2DC7ED 3.14%, rgba(45, 199, 237, 0) 100%);
+        background : $bg-icon1;
         left:-22rem;
         top: 0rem;
     }
@@ -93,7 +93,7 @@ body {
         top: -10rem;
         right: -26rem;
         border-radius: 100%;
-        background: linear-gradient(270deg, #F2C94C 0%, rgba(242, 201, 76, 0) 100%);
+        background: $bg-icon2;
     }
 
     #emoji3 {
@@ -103,7 +103,7 @@ body {
         clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
         top: 36rem;
       right: -31rem;
-      background: linear-gradient(180deg, #00E861 0%, rgba(0, 232, 97, 0) 100%);
+      background: $bg-icon3;
       
     }
     #img3 {
@@ -115,13 +115,13 @@ body {
     border-radius: 100%;
     top: 60rem;
      right: 18rem;
-    background: linear-gradient(270deg, #7248EC 0%, rgba(114, 72, 236, 0) 100%);
+    background: $bg-icon4;
  }
 
  #emoji5 {
     transform: rotate(90deg);
      border-radius: 3rem;
-    background: linear-gradient(136.92deg, #EF7C89 3.14%, rgba(239, 124, 137, 0) 100%);
+    background: $bg-icon5;
 
     left: -13rem;
     img {
