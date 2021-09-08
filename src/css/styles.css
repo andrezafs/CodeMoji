@@ -36,7 +36,7 @@ button {
 }
 
 .maxWidth {
-  max-width: 130rem;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
@@ -156,20 +156,20 @@ main .mainContainer .texts {
 
 #emoji1 {
   background: linear-gradient(136.92deg, #2DC7ED 3.14%, rgba(45, 199, 237, 0) 100%);
-  left: -16rem;
+  left: -22rem;
   top: 0rem;
 }
 
 #emoji2 {
   top: -10rem;
-  right: -25rem;
+  right: -26rem;
   border-radius: 100%;
   background: linear-gradient(270deg, #F2C94C 0%, rgba(242, 201, 76, 0) 100%);
 }
 
 #emoji3 {
   top: 36rem;
-  right: -29rem;
+  right: -31rem;
   background: linear-gradient(180deg, #00E861 0%, rgba(0, 232, 97, 0) 100%);
 }
 
@@ -184,7 +184,7 @@ main .mainContainer .texts {
   transform: rotate(90deg);
   border-radius: 3rem;
   background: linear-gradient(136.92deg, #EF7C89 3.14%, rgba(239, 124, 137, 0) 100%);
-  left: -12.4rem;
+  left: -6.4rem;
 }
 #emoji5 img {
   transform: rotate(-90deg);
