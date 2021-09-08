@@ -5,7 +5,7 @@ body {
     background-color: $white;
 }
     nav {
-        font-family: 'Sen', sans-serif;
+        // font-family: 'Sen', sans-serif;
         height: 9.4rem;
         align-items: center;
         display: flex;
@@ -18,6 +18,7 @@ body {
            font-weight: 700;
         }
         button {
+            font-size: 1.6rem;
             padding: 1.09rem 2.34rem;
             @include btn (ligth);
         }
@@ -31,12 +32,10 @@ body {
          
         h2 {
             text-transform: uppercase;
-            font-family: 'Inter', sans-serif;
-           font-weight: 500;
+
         }
         h1 {
             margin-top: 1.7rem;
-            font-family: 'Sen', sans-serif;
             line-height:  8.7rem;
         }
         // .maxWidth {
@@ -51,6 +50,8 @@ body {
         .buttons {
             margin-top: 3.7rem;
             button {
+
+                font-size: 2rem;
                 margin: 0 2.6rem;
             }
                 #btn-purple {
@@ -153,6 +154,13 @@ body {
 
      .coments {
       padding: 6rem 7.5rem;
-    
+        h3 {
+            padding: 0 1.2rem;
+            border-left: .3rem solid  #6610F2;
+        }
+        p {
+            
+    padding: 2.7rem 0;
+        }
      }
  }
