@@ -200,5 +200,14 @@ main .mainContainer .texts {
     width: 100%;
   }
 }
+footer {
+  margin-top: 14rem;
+}
+
+.coments-box {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-evenly;
+}
 
 /*# sourceMappingURL=styles.css.map */
