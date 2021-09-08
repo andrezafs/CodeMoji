@@ -99,10 +99,10 @@ nav button {
 }
 
 main {
+  height: 100vh;
   margin-top: 14.9rem;
   display: flex;
   text-align: center;
-  align-items: center;
 }
 main h2 {
   text-transform: uppercase;
